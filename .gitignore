@@ -1,0 +1,20 @@
+# R
+.Rproj.user/
+.Rhistory
+.RData
+.Rdata
+.Ruserdata
+
+# secrets
+.Renviron
+
+# data (IUCN data may not be redistributed)
+data/*
+!data/.gitkeep
+!data/fwise/
+data/fwise/*
+!data/fwise/.gitkeep
+
+# outputs
+output/*
+!output/.gitkeep
